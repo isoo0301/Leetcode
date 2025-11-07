@@ -1,8 +1,8 @@
 class Solution {
     public int uniquePaths(int m, int n) {
         int[][] paths = new int[m][n];
-        for(int[] arr: paths){
-            Arrays.fill(arr, 1);
+        for(int[] path: paths){
+            Arrays.fill(path, 1);
         }
 
         for(int i = 1; i < m; i++){
